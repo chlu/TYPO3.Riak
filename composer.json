@@ -1,0 +1,14 @@
+{
+    "name": "typo3/riak",
+    "type": "typo3-flow-package",
+    "description": "Riak cache backend for TYPO3 Flow",
+    "require": {
+        "typo3/flow": "*",
+		"riak/riak-client": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "TYPO3\\Riak": "Classes"
+        }
+    }
+}
